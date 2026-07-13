@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
 
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>RALES TEKNIK | Jasa Tukang Listrik Padang Pariaman</title>
+<title>RALES TEKNIK | Jasa Instalasi Listrik Padang Pariaman</title>
 
-<meta name="description" content="RALES TEKNIK adalah jasa tukang listrik profesional di Padang Pariaman melayani instalasi listrik rumah, CCTV, panel listrik, grounding, penangkal petir, tambah daya dan PLTS.">
+<meta name="description" content="RALES TEKNIK melayani instalasi listrik rumah, panel listrik, grounding, penangkal petir, CCTV, tambah daya, PLTS dan perbaikan listrik di Padang Pariaman.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
+
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -27,30 +29,33 @@ scroll-behavior:smooth;
 }
 
 body{
+
 font-family:'Poppins',sans-serif;
 background:#f5f5f5;
 color:#333;
+
 }
 
 header{
-background:#111;
-padding:15px 60px;
-display:flex;
-justify-content:space-between;
-align-items:center;
+
 position:fixed;
 top:0;
 left:0;
-right:0;
-z-index:999;
-box-shadow:0 5px 15px rgba(0,0,0,.2);
+width:100%;
+padding:18px 60px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#111;
+z-index:9999;
+
 }
 
 .logo{
 
-color:#FFC107;
 font-size:34px;
 font-weight:800;
+color:#FFC107;
 
 }
 
@@ -58,9 +63,8 @@ nav a{
 
 color:white;
 text-decoration:none;
-margin-left:25px;
-font-weight:500;
-
+margin-left:30px;
+font-weight:600;
 transition:.3s;
 
 }
@@ -71,55 +75,59 @@ color:#FFC107;
 
 }
 
-.hero-content{
-margin-top:-120px;
-display:flex;
-justify-content:center;
-align-items:center;
-gap:20px;
-}
+.hero{
 
-margin-top:80px;
-
-height:650px;
+margin-top:78px;
+height:720px;
 
 background:
 linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.35)),
 url("banner-rales.png");
 
 background-size:cover;
-
 background-position:center;
+background-repeat:no-repeat;
 
 display:flex;
-
-align-items:center;
-
 justify-content:center;
-
+align-items:center;
 text-align:center;
 
-padding:20px;
+}
 
-color:white;
+.hero-content{
+
+width:100%;
 
 }
 
 .hero h1{
 
-font-size:65px;
-
+font-size:80px;
 font-weight:800;
+color:white;
 
-margin-bottom:20px;
+text-shadow:0 5px 15px rgba(0,0,0,.5);
 
 }
 
 .hero p{
 
-font-size:24px;
+font-size:28px;
+color:white;
+margin-top:10px;
 
-margin-bottom:35px;
+}
+
+.button-group{
+
+margin-top:240px;
+
+display:flex;
+
+justify-content:center;
+
+gap:20px;
 
 }
 
@@ -127,17 +135,15 @@ margin-bottom:35px;
 
 display:inline-block;
 
-padding:16px 35px;
+padding:18px 40px;
 
-border-radius:8px;
+border-radius:10px;
 
 text-decoration:none;
 
-font-size:18px;
-
 font-weight:700;
 
-margin:10px;
+font-size:20px;
 
 transition:.3s;
 
@@ -146,7 +152,6 @@ transition:.3s;
 .wa{
 
 background:#25D366;
-
 color:white;
 
 }
@@ -154,53 +159,135 @@ color:white;
 .call{
 
 background:#FFC107;
-
 color:black;
 
 }
 
 .btn:hover{
 
-transform:scale(1.05);
+transform:translateY(-5px);
+
+box-shadow:0 15px 30px rgba(0,0,0,.25);
 
 }
+
+section{
+
+padding:90px 30px;
+
+}
+
+.container{
+
+max-width:1200px;
+margin:auto;
+
+}
+
+.title{
+
+font-size:46px;
+font-weight:800;
+text-align:center;
+margin-bottom:60px;
+
+}
+
+.card-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:30px;
+
+}
+
+.card{
+
+background:white;
+
+padding:35px;
+
+border-radius:18px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+transition:.4s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.card h3{
+
+margin-bottom:15px;
+
+font-size:24px;
+
+color:#FFC107;
+
+}
+
+.card p{
+
+line-height:1.8;
+
+}
+
 @media(max-width:768px){
 
 header{
 
-flex-direction:column;
-
 padding:20px;
+flex-direction:column;
 
 }
 
 nav{
 
-margin-top:20px;
+margin-top:15px;
 
 }
 
 nav a{
 
-display:block;
+display:inline-block;
+margin:8px;
 
-margin:10px;
+}
+
+.hero{
+
+height:600px;
 
 }
 
 .hero h1{
 
-font-size:40px;
+font-size:48px;
 
 }
 
 .hero p{
 
-font-size:18px;
+font-size:20px;
+
+}
+
+.button-group{
+
+margin-top:160px;
+flex-direction:column;
 
 }
 
 }
+
 </style>
 
 </head>
@@ -217,15 +304,15 @@ font-size:18px;
 
 <nav>
 
-<a href="#">Beranda</a>
+<a href="#layanan">Layanan</a>
 
-<a href="#">Layanan</a>
+<a href="#keunggulan">Keunggulan</a>
 
-<a href="#">Galeri</a>
+<a href="#galeri">Galeri</a>
 
-<a href="#">Tentang</a>
+<a href="#lokasi">Lokasi</a>
 
-<a href="#">Kontak</a>
+<a href="#kontak">Kontak</a>
 
 </nav>
 
@@ -235,166 +322,498 @@ font-size:18px;
 
 <div class="hero-content">
 
-<div style="height:80px;"></div>
+<div class="button-group">
 
 <a class="btn wa" href="https://wa.me/6285211260743">
+
 WhatsApp
+
 </a>
 
 <a class="btn call" href="tel:+6285211260743">
+
 Telepon
+
 </a>
 
 </div>
 
-</section>
-<section style="max-width:1200px;margin:60px auto;padding:20px;">
+</div>
 
-<h2 style="text-align:center;font-size:40px;color:#222;margin-bottom:40px;">
-Layanan Kami
+</section>
+<!-- ====================== -->
+<!-- SECTION LAYANAN -->
+<!-- ====================== -->
+
+<section id="layanan">
+
+<div class="container">
+
+<h2 class="title">
+
+Layanan Profesional Kami
+
 </h2>
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px;">
+<div class="card-grid">
 
-<div style="background:#fff;padding:30px;border-radius:15px;text-align:center;box-shadow:0 10px 25px rgba(0,0,0,.1);">
-<h3>⚡ Instalasi Listrik</h3>
-<p>Pemasangan instalasi listrik rumah, ruko, kantor, dan bangunan baru.</p>
+<div class="card">
+
+<div style="font-size:60px;">⚡</div>
+
+<h3>Instalasi Listrik Rumah</h3>
+
+<p>
+Pemasangan instalasi listrik rumah baru, renovasi, toko, ruko, kantor, gudang hingga bangunan usaha sesuai standar keselamatan.
+</p>
+
 </div>
 
-<div style="background:#fff;padding:30px;border-radius:15px;text-align:center;box-shadow:0 10px 25px rgba(0,0,0,.1);">
-<h3>📹 CCTV</h3>
-<p>Pemasangan CCTV rumah, toko, gudang dan kantor.</p>
+<div class="card">
+
+<div style="font-size:60px;">🔧</div>
+
+<h3>Perbaikan Instalasi Listrik</h3>
+
+<p>
+Mengatasi korsleting, MCB sering turun, stop kontak rusak, saklar mati, kabel terbakar, dan berbagai gangguan instalasi listrik.
+</p>
+
 </div>
 
-<div style="background:#fff;padding:30px;border-radius:15px;text-align:center;box-shadow:0 10px 25px rgba(0,0,0,.1);">
-<h3>🔌 Panel Listrik</h3>
-<p>Pembuatan Panel MDP, SDP, Panel Kontrol dan Power.</p>
+<div class="card">
+
+<div style="font-size:60px;">📹</div>
+
+<h3>Pemasangan CCTV</h3>
+
+<p>
+Pemasangan CCTV rumah, toko, kantor, gudang, sekolah dan tempat usaha lengkap dengan konfigurasi melalui HP.
+</p>
+
 </div>
 
-<div style="background:#fff;padding:30px;border-radius:15px;text-align:center;box-shadow:0 10px 25px rgba(0,0,0,.1);">
-<h3>☀️ PLTS</h3>
-<p>Pembangkit Listrik Tenaga Surya untuk rumah dan usaha.</p>
+<div class="card">
+
+<div style="font-size:60px;">🔌</div>
+
+<h3>Panel Listrik 1 & 3 Phasa</h3>
+
+<p>
+Pembuatan Panel SDP, Panel MDP, Panel Kontrol, Panel ATS-AMF dan instalasi distribusi listrik industri.
+</p>
+
 </div>
 
-<div style="background:#fff;padding:30px;border-radius:15px;text-align:center;box-shadow:0 10px 25px rgba(0,0,0,.1);">
-<h3>⚙️ Grounding</h3>
-<p>Pemasangan grounding dan sistem penangkal petir.</p>
+<div class="card">
+
+<div style="font-size:60px;">🛡️</div>
+
+<h3>Grounding & Penangkal Petir</h3>
+
+<p>
+Instalasi grounding berkualitas serta sistem penangkal petir untuk melindungi bangunan dan peralatan listrik.
+</p>
+
 </div>
 
-<div style="background:#fff;padding:30px;border-radius:15px;text-align:center;box-shadow:0 10px 25px rgba(0,0,0,.1);">
-<h3>💧 Pompa Air</h3>
-<p>Servis pompa air, instalasi pompa dan perbaikan.</p>
+<div class="card">
+
+<div style="font-size:60px;">💧</div>
+
+<h3>Pompa Air</h3>
+
+<p>
+Servis pompa air, pemasangan pompa baru, penggantian pressure switch, toren air dan instalasi otomatis.
+</p>
+
+</div>
+
+<div class="card">
+
+<div style="font-size:60px;">☀️</div>
+
+<h3>PLTS (Panel Surya)</h3>
+
+<p>
+Perencanaan dan pemasangan Pembangkit Listrik Tenaga Surya (PLTS) untuk rumah, kantor dan usaha.
+</p>
+
+</div>
+
+<div class="card">
+
+<div style="font-size:60px;">🏠</div>
+
+<h3>Tambah Daya PLN</h3>
+
+<p>
+Membantu proses tambah daya, penggantian instalasi lama dan penyesuaian kapasitas listrik sesuai kebutuhan.
+</p>
+
+</div>
+
 </div>
 
 </div>
 
 </section>
-<section style="padding:50px;">
 
-<h2 style="text-align:center;">
-📍 Lokasi RALES TEKNIK
-</h2>
+<!-- ====================== -->
+<!-- CSS TAMBAHAN -->
+<!-- Tempel sebelum </style> -->
+<!-- ====================== -->
 
-<iframe
-src="https://maps.google.com/maps?q=Jl.%20Kabun%20Kopi%20No.%2048%20Lubuk%20Alung%20Padang%20Pariaman&t=&z=15&ie=UTF8&iwloc=&output=embed"
-width="100%"
-height="400"
-style="border:0;border-radius:20px;"
-loading="lazy">
-</iframe>
+<style>
 
-</section>
+.card{
 
-<section style="background:#111;color:white;padding:70px 20px;text-align:center;">
+position:relative;
 
-<h2 style="font-size:42px;color:#FFC107;">
+overflow:hidden;
+
+}
+
+.card::before{
+
+content:"";
+
+position:absolute;
+
+top:0;
+
+left:-100%;
+
+width:100%;
+
+height:5px;
+
+background:#FFC107;
+
+transition:.5s;
+
+}
+
+.card:hover::before{
+
+left:0;
+
+}
+
+.card:hover{
+
+transform:translateY(-12px);
+
+box-shadow:0 18px 40px rgba(0,0,0,.18);
+
+}
+
+.card div{
+
+margin-bottom:20px;
+
+transition:.4s;
+
+}
+
+.card:hover div{
+
+transform:scale(1.15);
+
+}
+
+</style>
+<!-- ========================= -->
+<!-- KEUNGGULAN -->
+<!-- ========================= -->
+
+<section id="keunggulan" style="background:#111;color:white;">
+
+<div class="container">
+
+<h2 class="title" style="color:#FFC107;">
 Mengapa Memilih RALES TEKNIK?
 </h2>
 
-<br>
+<div class="card-grid">
 
-<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:30px;">
+<div class="card">
+<h3>⚡ Teknisi Berpengalaman</h3>
+<p>Berpengalaman dalam instalasi listrik rumah, ruko, kantor, panel listrik, grounding dan CCTV.</p>
+</div>
 
-<div>
-<h1>10+</h1>
+<div class="card">
+<h3>🛡️ Pekerjaan Bergaransi</h3>
+<p>Setiap pekerjaan dilakukan dengan rapi, aman dan mengutamakan standar instalasi listrik.</p>
+</div>
+
+<div class="card">
+<h3>💬 Respon Cepat</h3>
+<p>Hubungi kami melalui WhatsApp dan teknisi siap membantu sesuai jadwal.</p>
+</div>
+
+<div class="card">
+<h3>💰 Harga Transparan</h3>
+<p>Biaya disampaikan di awal tanpa biaya tersembunyi.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- STATISTIK -->
+<!-- ========================= -->
+
+<section style="background:#FFC107;">
+
+<div class="container">
+
+<div class="card-grid">
+
+<div class="card" style="text-align:center;">
+<h1 style="font-size:55px;">500+</h1>
+<p>Proyek Selesai</p>
+</div>
+
+<div class="card" style="text-align:center;">
+<h1 style="font-size:55px;">10+</h1>
 <p>Tahun Pengalaman</p>
 </div>
 
-<div>
-<h1>500+</h1>
-<p>Pekerjaan Selesai</p>
+<div class="card" style="text-align:center;">
+<h1 style="font-size:55px;">100%</h1>
+<p>Kepuasan Pelanggan</p>
 </div>
 
-<div>
-<h1>100%</h1>
-<p>Pelanggan Puas</p>
-</div>
-
-<div>
-<h1>24 Jam</h1>
+<div class="card" style="text-align:center;">
+<h1 style="font-size:55px;">24 Jam</h1>
 <p>Layanan Darurat</p>
 </div>
 
 </div>
 
-</section>
-<section style="max-width:1200px;margin:60px auto;padding:20px;">
+</div>
 
-<h2 style="text-align:center;font-size:40px;color:#222;margin-bottom:40px;">
+</section>
+
+<!-- ========================= -->
+<!-- GALERI -->
+<!-- ========================= -->
+
+<section id="galeri">
+
+<div class="container">
+
+<h2 class="title">
+
 Galeri Pekerjaan
+
 </h2>
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;">
+<div class="card-grid">
 
-<img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=600&q=80" style="width:100%;border-radius:12px;">
+<div class="card">
+<img src="banner-rales.png" style="width:100%;border-radius:15px;">
+</div>
 
-<img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=600&q=80" style="width:100%;border-radius:12px;">
+<div class="card">
+<img src="banner-rales.png" style="width:100%;border-radius:15px;">
+</div>
 
-<img src="https://images.unsplash.com/photo-1555963966-b7ae5404b6ed?auto=format&fit=crop&w=600&q=80" style="width:100%;border-radius:12px;">
+<div class="card">
+<img src="banner-rales.png" style="width:100%;border-radius:15px;">
+</div>
+
+</div>
 
 </div>
 
 </section>
 
-<section style="max-width:1200px;margin:60px auto;padding:20px;">
+<!-- ========================= -->
+<!-- GOOGLE MAPS -->
+<!-- ========================= -->
 
-<h2 style="text-align:center;color:#222;">
-Area Layanan
+<section id="lokasi">
+
+<div class="container">
+
+<h2 class="title">
+
+Lokasi RALES TEKNIK
+
 </h2>
 
-<p style="text-align:center;font-size:20px;line-height:2;">
-Padang Pariaman • Lubuk Alung • Batang Anai • Pariaman • Padang •
-Kayu Tanam • Sicincin • Ulakan Tapakis • Sungai Limau dan sekitarnya.
-</p>
+<iframe
+
+src="https://maps.google.com/maps?q=Jl.%20Kabun%20Kopi%20No.%2048%20Lubuk%20Alung%20Padang%20Pariaman&t=&z=15&ie=UTF8&iwloc=&output=embed"
+
+width="100%"
+
+height="450"
+
+style="border:0;border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,.2);"
+
+loading="lazy">
+
+</iframe>
+
+</div>
 
 </section>
 
-<footer style="background:#111;color:white;padding:50px 20px;text-align:center;">
+<!-- ========================= -->
+<!-- TESTIMONI -->
+<!-- ========================= -->
 
-<h2 style="color:#FFC107;">
-RALES TEKNIK
+<section style="background:#111;color:white;">
+
+<div class="container">
+
+<h2 class="title" style="color:#FFC107;">
+Testimoni Pelanggan
 </h2>
 
+<div class="card-grid">
+
+<div class="card">
+
+★★★★★
+
 <p>
+
+"Pekerjaan sangat rapi dan cepat.
+Teknisi ramah dan profesional."
+
+</p>
+
+<b>- Pelanggan Lubuk Alung</b>
+
+</div>
+
+<div class="card">
+
+★★★★★
+
+<p>
+
+"Panel listrik selesai sesuai jadwal.
+Sangat puas dengan hasilnya."
+
+</p>
+
+<b>- Pelanggan Pariaman</b>
+
+</div>
+
+<div class="card">
+
+★★★★★
+
+<p>
+
+"Instalasi listrik rumah sangat rapi.
+Harga juga masuk akal."
+
+</p>
+
+<b>- Pelanggan Padang</b>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- ========================= -->
+<!-- FOOTER -->
+<!-- ========================= -->
+
+<footer id="kontak" style="background:#111;color:white;padding:70px 20px;">
+
+<div class="container">
+
+<h2 style="color:#FFC107;text-align:center;font-size:42px;">
+
+⚡ RALES TEKNIK
+
+</h2>
+
+<p style="text-align:center;font-size:20px;margin-top:20px;">
+
 Jasa Instalasi Listrik Profesional Padang Pariaman
+
 </p>
 
-<p>
-📞 0852-1126-0743
+<div style="display:flex;justify-content:center;flex-wrap:wrap;gap:20px;margin-top:35px;">
+
+<a href="tel:+6285211260743" class="btn call">
+
+📞 Telepon
+
+</a>
+
+<a href="https://wa.me/6285211260743" class="btn wa">
+
+💬 WhatsApp
+
+</a>
+
+</div>
+
+<div style="margin-top:40px;text-align:center;line-height:2;">
+
+📍 Jl. Kabun Kopi No.48 Lubuk Alung<br>
+
+Padang Pariaman - Sumatera Barat<br>
+
+☎ 0852-1126-0743
+
+</div>
+
+<hr style="margin:45px 0;border:1px solid #333;">
+
+<p style="text-align:center;">
+
+© 2026 RALES TEKNIK | Seluruh Hak Cipta Dilindungi
+
 </p>
 
-<p>
-📱 WhatsApp : 0852-1126-0743
-</p>
-
-<p>
-© 2026 RALES TEKNIK. All Rights Reserved.
-</p>
+</div>
 
 </footer>
+
+<!-- ========================= -->
+<!-- WHATSAPP MELAYANG -->
+<!-- ========================= -->
+
 <a href="https://wa.me/6285211260743"
 
-style="
+class="floating-wa"
+
+title="Chat WhatsApp">
+
+💬
+
+</a>
+
+<!-- ========================= -->
+<!-- TOMBOL KE ATAS -->
+<!-- ========================= -->
+
+<button id="topBtn">
+
+⬆
+
+</button>
+
+<style>
+
+.floating-wa{
 
 position:fixed;
 
@@ -402,26 +821,146 @@ bottom:25px;
 
 right:20px;
 
+width:65px;
+
+height:65px;
+
 background:#25D366;
-
-color:white;
-
-padding:18px;
 
 border-radius:50%;
 
-font-size:30px;
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+font-size:34px;
 
 text-decoration:none;
 
-box-shadow:0 10px 20px rgba(0,0,0,.3);
+color:white;
 
-z-index:999;
+box-shadow:0 15px 30px rgba(0,0,0,.3);
 
-">
+z-index:9999;
 
-💬
+animation:pulse 2s infinite;
 
-</a>
+}
+
+@keyframes pulse{
+
+0%{transform:scale(1);}
+
+50%{transform:scale(1.1);}
+
+100%{transform:scale(1);}
+
+}
+
+#topBtn{
+
+position:fixed;
+
+bottom:105px;
+
+right:20px;
+
+width:55px;
+
+height:55px;
+
+border:none;
+
+border-radius:50%;
+
+background:#FFC107;
+
+font-size:26px;
+
+cursor:pointer;
+
+display:none;
+
+box-shadow:0 10px 25px rgba(0,0,0,.3);
+
+}
+
+.fade{
+
+opacity:0;
+
+transform:translateY(40px);
+
+transition:1s;
+
+}
+
+.fade.show{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+</style>
+
+<script>
+
+let topBtn=document.getElementById("topBtn");
+
+window.onscroll=function(){
+
+if(document.documentElement.scrollTop>300){
+
+topBtn.style.display="block";
+
+}else{
+
+topBtn.style.display="none";
+
+}
+
+};
+
+topBtn.onclick=function(){
+
+window.scrollTo({
+
+top:0,
+
+behavior:"smooth"
+
+});
+
+};
+
+const observer=new IntersectionObserver((entries)=>{
+
+entries.forEach(entry=>{
+
+if(entry.isIntersecting){
+
+entry.target.classList.add("show");
+
+}
+
+});
+
+});
+
+document.querySelectorAll("section").forEach(sec=>{
+
+sec.classList.add("fade");
+
+observer.observe(sec);
+
+});
+
+</script>
+
 </body>
+
 </html>
