@@ -1,113 +1,430 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>RALES TEKNIK | Tukang Listrik Padang Pariaman</title>
+
+<title>RALES TEKNIK | Jasa Tukang Listrik Padang Pariaman</title>
+
+<meta name="description" content="RALES TEKNIK adalah jasa tukang listrik profesional di Padang Pariaman melayani instalasi listrik rumah, CCTV, panel listrik, grounding, penangkal petir, tambah daya dan PLTS.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
 <style>
-body{
-font-family:Arial,sans-serif;
+
+*{
 margin:0;
-background:#f4f4f4;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#f5f5f5;
 color:#333;
 }
+
 header{
-background:#ffb300;
-padding:30px;
-text-align:center;
+background:#111;
+padding:15px 60px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:fixed;
+top:0;
+left:0;
+right:0;
+z-index:999;
+box-shadow:0 5px 15px rgba(0,0,0,.2);
 }
-header h1{
-margin:0;
-font-size:32px;
+
+.logo{
+
+color:#FFC107;
+font-size:34px;
+font-weight:800;
+
 }
-.hero{
-padding:30px;
-text-align:center;
-background:white;
-}
-.btn{
-display:inline-block;
-margin:10px;
-padding:14px 25px;
+
+nav a{
+
+color:white;
 text-decoration:none;
-border-radius:8px;
-font-weight:bold;
+margin-left:25px;
+font-weight:500;
+
+transition:.3s;
+
 }
-.wa{
-background:#25D366;
-color:white;
+
+nav a:hover{
+
+color:#FFC107;
+
 }
-.call{
-background:#1565C0;
-color:white;
-}
-.section{
-padding:25px;
-background:white;
-margin:15px;
-border-radius:10px;
-}
-footer{
-background:#222;
-color:white;
+
+.hero{
+
+margin-top:80px;
+
+height:650px;
+
+background:
+
+linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+
+url("https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&w=1600&q=80");
+
+background-size:cover;
+
+background-position:center;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
 text-align:center;
+
 padding:20px;
+
+color:white;
+
+}
+
+.hero h1{
+
+font-size:65px;
+
+font-weight:800;
+
+margin-bottom:20px;
+
+}
+
+.hero p{
+
+font-size:24px;
+
+margin-bottom:35px;
+
+}
+
+.btn{
+
+display:inline-block;
+
+padding:16px 35px;
+
+border-radius:8px;
+
+text-decoration:none;
+
+font-size:18px;
+
+font-weight:700;
+
+margin:10px;
+
+transition:.3s;
+
+}
+
+.wa{
+
+background:#25D366;
+
+color:white;
+
+}
+
+.call{
+
+background:#FFC107;
+
+color:black;
+
+}
+
+.btn:hover{
+
+transform:scale(1.05);
+
+}
+@media(max-width:768px){
+
+header{
+
+flex-direction:column;
+
+padding:20px;
+
+}
+
+nav{
+
+margin-top:20px;
+
+}
+
+nav a{
+
+display:block;
+
+margin:10px;
+
+}
+
+.hero h1{
+
+font-size:40px;
+
+}
+
+.hero p{
+
+font-size:18px;
+
+}
+
 }
 </style>
+
 </head>
 
 <body>
 
 <header>
-<h1>RALES TEKNIK</h1>
-<p>Jasa Tukang Listrik Padang Pariaman</p>
+
+<div class="logo">
+
+⚡ RALES TEKNIK
+
+</div>
+
+<nav>
+
+<a href="#">Beranda</a>
+
+<a href="#">Layanan</a>
+
+<a href="#">Galeri</a>
+
+<a href="#">Tentang</a>
+
+<a href="#">Kontak</a>
+
+</nav>
+
 </header>
 
-<div class="hero">
-<h2>Profesional • Berpengalaman • Bergaransi</h2>
+<section class="hero">
+
+<div>
+
+<h1>RALES TEKNIK</h1>
+
+<p>
+
+Jasa Tukang Listrik Profesional Padang Pariaman
+
+</p>
 
 <a class="btn wa" href="https://wa.me/6285211260743">
+
 WhatsApp
+
 </a>
 
 <a class="btn call" href="tel:+6285211260743">
+
 Telepon
+
 </a>
-</div>
-
-<div class="section">
-<h2>Layanan Kami</h2>
-
-<ul>
-<li>Instalasi Listrik Rumah</li>
-<li>Perbaikan Instalasi Listrik</li>
-<li>Pemasangan CCTV</li>
-<li>Panel MDP & SDP</li>
-<li>Servis Pompa Air</li>
-<li>Tambah Daya</li>
-<li>Grounding</li>
-<li>Penangkal Petir</li>
-<li>Pembangkit Listrik Tenaga Surya (PLTS)</li>
-</ul>
 
 </div>
 
-<div class="section">
-<h2>Area Layanan</h2>
+</section>
+<section style="max-width:1200px;margin:60px auto;padding:20px;">
 
-Padang Pariaman<br>
-Lubuk Alung<br>
-Batang Anai<br>
-Pariaman<br>
-Padang<br>
-dan sekitarnya.
+<h2 style="text-align:center;font-size:40px;color:#222;margin-bottom:40px;">
+Layanan Kami
+</h2>
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px;">
+
+<div style="background:#fff;padding:30px;border-radius:15px;text-align:center;box-shadow:0 10px 25px rgba(0,0,0,.1);">
+<h3>⚡ Instalasi Listrik</h3>
+<p>Pemasangan instalasi listrik rumah, ruko, kantor, dan bangunan baru.</p>
 </div>
 
-<footer>
+<div style="background:#fff;padding:30px;border-radius:15px;text-align:center;box-shadow:0 10px 25px rgba(0,0,0,.1);">
+<h3>📹 CCTV</h3>
+<p>Pemasangan CCTV rumah, toko, gudang dan kantor.</p>
+</div>
 
-© 2026 RALES TEKNIK
+<div style="background:#fff;padding:30px;border-radius:15px;text-align:center;box-shadow:0 10px 25px rgba(0,0,0,.1);">
+<h3>🔌 Panel Listrik</h3>
+<p>Pembuatan Panel MDP, SDP, Panel Kontrol dan Power.</p>
+</div>
+
+<div style="background:#fff;padding:30px;border-radius:15px;text-align:center;box-shadow:0 10px 25px rgba(0,0,0,.1);">
+<h3>☀️ PLTS</h3>
+<p>Pembangkit Listrik Tenaga Surya untuk rumah dan usaha.</p>
+</div>
+
+<div style="background:#fff;padding:30px;border-radius:15px;text-align:center;box-shadow:0 10px 25px rgba(0,0,0,.1);">
+<h3>⚙️ Grounding</h3>
+<p>Pemasangan grounding dan sistem penangkal petir.</p>
+</div>
+
+<div style="background:#fff;padding:30px;border-radius:15px;text-align:center;box-shadow:0 10px 25px rgba(0,0,0,.1);">
+<h3>💧 Pompa Air</h3>
+<p>Servis pompa air, instalasi pompa dan perbaikan.</p>
+</div>
+
+</div>
+
+</section>
+<section style="padding:50px;">
+
+<h2 style="text-align:center;">
+📍 Lokasi RALES TEKNIK
+</h2>
+
+<iframe
+src="https://maps.google.com/maps?q=Jl.%20Kabun%20Kopi%20No.%2048%20Lubuk%20Alung%20Padang%20Pariaman&t=&z=15&ie=UTF8&iwloc=&output=embed"
+width="100%"
+height="400"
+style="border:0;border-radius:20px;"
+loading="lazy">
+</iframe>
+
+</section>
+
+Mengapa Memilih RALES TEKNIK?
+</h2>
+
+<br>
+
+<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:30px;">
+
+<div>
+<h1>10+</h1>
+<p>Tahun Pengalaman</p>
+</div>
+
+<div>
+<h1>500+</h1>
+<p>Pekerjaan Selesai</p>
+</div>
+
+<div>
+<h1>100%</h1>
+<p>Pelanggan Puas</p>
+</div>
+
+<div>
+<h1>24 Jam</h1>
+<p>Layanan Darurat</p>
+</div>
+
+</div>
+
+</section>
+<section style="max-width:1200px;margin:60px auto;padding:20px;">
+
+<h2 style="text-align:center;font-size:40px;color:#222;margin-bottom:40px;">
+Galeri Pekerjaan
+</h2>
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;">
+
+<img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=600&q=80" style="width:100%;border-radius:12px;">
+
+<img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=600&q=80" style="width:100%;border-radius:12px;">
+
+<img src="https://images.unsplash.com/photo-1555963966-b7ae5404b6ed?auto=format&fit=crop&w=600&q=80" style="width:100%;border-radius:12px;">
+
+</div>
+
+</section>
+
+<section style="max-width:1200px;margin:60px auto;padding:20px;">
+
+<h2 style="text-align:center;color:#222;">
+Area Layanan
+</h2>
+
+<p style="text-align:center;font-size:20px;line-height:2;">
+Padang Pariaman • Lubuk Alung • Batang Anai • Pariaman • Padang •
+Kayu Tanam • Sicincin • Ulakan Tapakis • Sungai Limau dan sekitarnya.
+</p>
+
+</section>
+
+<footer style="background:#111;color:white;padding:50px 20px;text-align:center;">
+
+<h2 style="color:#FFC107;">
+RALES TEKNIK
+</h2>
+
+<p>
+Jasa Instalasi Listrik Profesional Padang Pariaman
+</p>
+
+<p>
+📞 0852-1126-0743
+</p>
+
+<p>
+📱 WhatsApp : 0852-1126-0743
+</p>
+
+<p>
+© 2026 RALES TEKNIK. All Rights Reserved.
+</p>
 
 </footer>
+<a href="https://wa.me/6285211260743"
 
+style="
+
+position:fixed;
+
+bottom:25px;
+
+right:20px;
+
+background:#25D366;
+
+color:white;
+
+padding:18px;
+
+border-radius:50%;
+
+font-size:30px;
+
+text-decoration:none;
+
+box-shadow:0 10px 20px rgba(0,0,0,.3);
+
+z-index:999;
+
+">
+
+💬
+
+</a>
 </body>
-  </html>
+</html>
