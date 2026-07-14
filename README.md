@@ -1,2 +1,2 @@
 # rales-teknik
-Website resmi RALES TEKNIK
+Website resmi Rales Teknik
